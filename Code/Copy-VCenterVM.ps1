@@ -102,6 +102,16 @@
                 # -useUpperCaseUuid
             }
             Copy-VCenterVM @CloneParams
+
+        .NOTES
+            Author: Josh Burkard (www.burkard.it)
+            Created: 24/03/2023
+
+            Requirements:
+                - PowerCLI
+                - function Get-VCenterCertificate (stays in the same GIT Repository)
+
+
     #>
     [CmdletBinding()]
     Param (
